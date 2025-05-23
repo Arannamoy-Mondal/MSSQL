@@ -44,3 +44,10 @@ end catch;
 	
 
 select * from student;
+
+
+-- function
+
+select 'hello '+'world';
+select * from student where first_name like '__l%';
+select * from student where first_name like '%_o';
